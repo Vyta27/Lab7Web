@@ -37,6 +37,7 @@ Buat file `php_dasar.php` lalu tuliskan kode berikut:
 
 <img width="1920" height="942" alt="Image" src="https://github.com/user-attachments/assets/2f81e759-bdaf-46a0-8451-a9df3cb992d2" />
 
+  - Ini membuktikan bahwa server PHP sudah berjalan.
   - <?php ... ?> adalah blok kode PHP.
   - echo "Hello World"; menampilkan teks ke layar.
 
