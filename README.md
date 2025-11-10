@@ -92,13 +92,36 @@ echo "Selamat Datang " . $_POST['nama'];
 
 <img width="1920" height="934" alt="Image" src="https://github.com/user-attachments/assets/ce2a2757-e676-4476-84a4-469744550f8f" />
 
+
+<img width="1920" height="945" alt="Image" src="https://github.com/user-attachments/assets/afc0b92a-3de5-4d7d-85bc-893909670b45" />
+
+
+<img width="1920" height="949" alt="Image" src="https://github.com/user-attachments/assets/da9521f5-b761-46d8-842d-727294c96ca6" />
+
 Penjelasan Perubahan :
   - `method="post"` digunakan untuk mengirim data ke server secara aman.
   - Data yang dikirim ditangkap menggunakan `$_POST['nama']`.
   - Setelah tombol “Kirim” ditekan, nama akan muncul di bawah form.
 
-<img width="1920" height="945" alt="Image" src="https://github.com/user-attachments/assets/afc0b92a-3de5-4d7d-85bc-893909670b45" />
+## Langkah 6
+- Operator dan Perhitungan
 
-<img width="1920" height="949" alt="Image" src="https://github.com/user-attachments/assets/da9521f5-b761-46d8-842d-727294c96ca6" />
+```php
+<?php
+$gaji = 1000000;
+$pajak = 0.1;
+$thp = $gaji - ($gaji * $pajak);
+echo "Gaji sebelum pajak = Rp. $gaji <br>";
+echo "Gaji yang dibawa pulang = Rp. $thp";
+?>
+```
 
 <img width="1920" height="942" alt="Image" src="https://github.com/user-attachments/assets/d0c92165-05bd-4b2f-ace1-b2e98c5a65a4" />
+
+Penjelasan Perubahan :
+  - Menampilkan hasil perhitungan dalam format teks.
+  - Operator `*` dan `-` digunakan untuk perhitungan matematika.
+
+# Pertanyaan dan Tugas
+  Buatlah program PHP sederhana dengan menggunakan form input yang menampilkan nama, tanggal lahir dan pekerjaan. Kemudian tampilkan outputnya dengan menghitung umur berdasarkan inputan tanggal lahir. Dan pilihan  
+  pekerjaan dengan gaji yang berbeda-beda sesuai pilihan pekerjaan.
