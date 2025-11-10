@@ -125,3 +125,7 @@ Penjelasan Perubahan :
 # Pertanyaan dan Tugas
   Buatlah program PHP sederhana dengan menggunakan form input yang menampilkan nama, tanggal lahir dan pekerjaan. Kemudian tampilkan outputnya dengan menghitung umur berdasarkan inputan tanggal lahir. Dan pilihan  
   pekerjaan dengan gaji yang berbeda-beda sesuai pilihan pekerjaan.
+
+  <img width="1920" height="945" alt="Image" src="https://github.com/user-attachments/assets/add61546-09e4-4518-8bae-c304e2f00d9e" /> 
+  
+  <img width="1920" height="960" alt="Image" src="https://github.com/user-attachments/assets/b675108a-0dd4-4a43-981f-05906a44009f" />
