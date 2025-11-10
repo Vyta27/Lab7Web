@@ -8,18 +8,13 @@ Kelas  : TI.24.A2
 
 # Langkah dan Penjelasan
 
-# Langkah 1
+## Langkah 1
 - Buat folder lab7_php_dasar di dalam direktori htdocs.
 - Folder htdocs adalah tempat semua file web disimpan di XAMPP.
 - Semua file .php kamu akan disimpan di sini dan diakses lewat http://localhost/lab7_php_dasar/.
 
 <img width="1920" height="945" alt="Image" src="https://github.com/user-attachments/assets/4361f512-5b1f-4f41-b010-533161e04879" />
 
-# Langkah 2
-- Buat file php_dasar.php lalu tuliskan kode berikut.
-
-  
---- 
 
 ## Langkah 2
 Buat file `php_dasar.php` lalu tuliskan kode berikut:
@@ -38,21 +33,7 @@ Buat file `php_dasar.php` lalu tuliskan kode berikut:
   ?>
 </body>
 </html>
-
-  
-  ``` <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>PHP Dasar</title>
-</head>
-<body>
-  <h1>Belajar PHP Dasar</h1>
-  <?php
-    echo "Hello World";
-  ?>
-</body>
-</html>  ```
+```
 
 <img width="1920" height="942" alt="Image" src="https://github.com/user-attachments/assets/2f81e759-bdaf-46a0-8451-a9df3cb992d2" />
 
