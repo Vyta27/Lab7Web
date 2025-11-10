@@ -19,7 +19,7 @@ Kelas  : TI.24.A2
 - Buat file php_dasar.php lalu tuliskan kode berikut.
 
   
----
+--- 
 
 ## Langkah 2
 Buat file `php_dasar.php` lalu tuliskan kode berikut:
