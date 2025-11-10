@@ -37,6 +37,7 @@ Buat file `php_dasar.php` lalu tuliskan kode berikut:
 
 <img width="1920" height="942" alt="Image" src="https://github.com/user-attachments/assets/2f81e759-bdaf-46a0-8451-a9df3cb992d2" />
 
+Penjelasan Perubahan :
   - Ini membuktikan bahwa server PHP sudah berjalan.
   - <?php ... ?> adalah blok kode PHP.
   - echo "Hello World"; menampilkan teks ke layar.
@@ -52,13 +53,28 @@ echo "NIM : $nim <br>";
 echo "Nama : $nama";
 ?>
 ```
+
+<img width="1920" height="942" alt="Image" src="https://github.com/user-attachments/assets/8f94050d-60d5-4083-bba1-995b3e4bba23" />
+
+Penjelasan Perubahan :
   - `$nim` dan `$nama` menyimpan data (variabel PHP selalu diawali $).
   - Operator `.` digunakan untuk menggabungkan teks.
   - `<br>` untuk membuat baris baru di HTML.
 
-<img width="1920" height="942" alt="Image" src="https://github.com/user-attachments/assets/8f94050d-60d5-4083-bba1-995b3e4bba23" />
+## Langkah 4
+- Code ditambah dengan : 
 
+```php
+<?php
+echo "Selamat Datang " . $_GET['nama'];
+?>
+```
 <img width="1920" height="942" alt="Image" src="https://github.com/user-attachments/assets/0815ace7-9686-424c-94ad-fcf5bc36ca23" />
+
+Penjelasan perubahan :
+  - Jika kamu buka http://localhost/lab7_php_dasar/php_dasar.php?nama=Navyta, maka hasilnya akan        seperti gambar di atas.
+  - `$_GET` mengambil data dari URL.
+ 
 
 <img width="1920" height="934" alt="Image" src="https://github.com/user-attachments/assets/ce2a2757-e676-4476-84a4-469744550f8f" />
 
