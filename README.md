@@ -17,7 +17,7 @@ Kelas  : TI.24.A2
 
 
 ## Langkah 2
-Buat file `php_dasar.php` lalu tuliskan kode berikut:
+- Buat file `php_dasar.php` lalu tuliskan kode berikut:
 
 ```php
 <!DOCTYPE html>
@@ -75,8 +75,27 @@ Penjelasan perubahan :
   - Jika kamu buka http://localhost/lab7_php_dasar/php_dasar.php?nama=Navyta, maka hasilnya akan        seperti gambar di atas.
   - `$_GET` mengambil data dari URL.
  
+## Langkah 5
+- Membuat Form Input
+
+```php
+<form method="post">
+  <label>Nama: </label>
+  <input type="text" name="nama">
+  <input type="submit" value="Kirim">
+</form>
+
+<?php
+echo "Selamat Datang " . $_POST['nama'];
+?>
+```
 
 <img width="1920" height="934" alt="Image" src="https://github.com/user-attachments/assets/ce2a2757-e676-4476-84a4-469744550f8f" />
+
+Penjelasan Perubahan :
+  - `method="post"` digunakan untuk mengirim data ke server secara aman.
+  - Data yang dikirim ditangkap menggunakan `$_POST['nama']`.
+  - Setelah tombol “Kirim” ditekan, nama akan muncul di bawah form.
 
 <img width="1920" height="945" alt="Image" src="https://github.com/user-attachments/assets/afc0b92a-3de5-4d7d-85bc-893909670b45" />
 
