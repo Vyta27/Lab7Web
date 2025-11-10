@@ -17,6 +17,28 @@ Kelas  : TI.24.A2
 
 # Langkah 2
 - Buat file php_dasar.php lalu tuliskan kode berikut.
+
+  
+---
+
+## Langkah 2
+Buat file `php_dasar.php` lalu tuliskan kode berikut:
+
+```php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PHP Dasar</title>
+</head>
+<body>
+  <h1>Belajar PHP Dasar</h1>
+  <?php
+    echo "Hello World";
+  ?>
+</body>
+</html>
+
   
   ``` <!DOCTYPE html>
 <html lang="en">
