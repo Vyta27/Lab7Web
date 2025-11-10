@@ -41,7 +41,20 @@ Buat file `php_dasar.php` lalu tuliskan kode berikut:
   - <?php ... ?> adalah blok kode PHP.
   - echo "Hello World"; menampilkan teks ke layar.
 
-<img width="1920" height="942" alt="Image" src="https://github.com/user-attachments/assets/2f81e759-bdaf-46a0-8451-a9df3cb992d2" />
+## Langkah 3
+- Menambahkan Variabel
+
+```php
+  <?php
+$nim = "312410184";
+$nama = "Navyta Budi Yulia";
+echo "NIM : $nim <br>";
+echo "Nama : $nama";
+?>
+```
+  - '$nim' dan '$nama' menyimpan data (variabel PHP selalu diawali $).
+  - Operator '.' digunakan untuk menggabungkan teks.
+  - '<br>' untuk membuat baris baru di HTML.
 
 <img width="1920" height="942" alt="Image" src="https://github.com/user-attachments/assets/8f94050d-60d5-4083-bba1-995b3e4bba23" />
 
